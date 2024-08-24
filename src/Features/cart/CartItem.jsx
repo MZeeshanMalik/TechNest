@@ -18,11 +18,7 @@ function CartItem({ image, title, itemQuantity, id, itemPrice, totalPrice }) {
         {/* <div> */}
         <CartItemDiv>
           <span>
-            <Image
-              src={`../../public/images/${image}`}
-              height="50vh"
-              width="50vh"
-            />
+            <Image src={`../../images/${image}`} height="50vh" width="50vh" />
           </span>
           <Span>{title}</Span>
           {/* <span></span> */}

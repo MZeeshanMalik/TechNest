@@ -33,7 +33,7 @@ function Table({ cart }) {
         <TableRow key={item.id}>
           <TableData>
             <Img
-              src={`../../public/images/${item.image}`}
+              src={`../../images/${item.image}`}
               height="70dvh"
               width="70dvh"
             />
@@ -55,19 +55,6 @@ function Table({ cart }) {
           </TableData>
         </TableRow>
       ))}
-      {/* <TableRow>
-        <TableData>
-          <Img
-            src="../../public/images/air-cooler.jpg"
-            height="70dvh"
-            width="70dvh"
-          />
-        </TableData>
-        <TableData>haier inspire</TableData>
-        <TableData>1000</TableData>
-        <TableData>10</TableData>
-        <TableData>10000</TableData>
-      </TableRow> */}
     </StyledTable>
   );
 }

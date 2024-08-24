@@ -35,7 +35,6 @@ function Navbar() {
       <ListBox>
         <UnorderedList>
           <List>
-            {" "}
             <a onClick={() => handleNavigation()}>Home</a>
           </List>
           <List>About</List>
@@ -52,7 +51,9 @@ function Navbar() {
           <Close onClick={toggleSidebar}>
             <SquaredCross size="30px" />
           </Close>
-          <List>Home</List>
+          <List>
+            <a onClick={() => handleNavigation()}>Home</a>
+          </List>
           <List>About</List>
           <List>Contact</List>
           <List>Items</List>
