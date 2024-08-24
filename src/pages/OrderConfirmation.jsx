@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { useSelector } from "react-redux";
-import { getCart, getTotalCartPrice } from "../Features/Cart/CartSlice";
+import { getCart, getTotalCartPrice } from "../Features/cart/CartSlice";
 const Container = styled.div`
   max-width: 1200px;
   margin: 0 auto;
