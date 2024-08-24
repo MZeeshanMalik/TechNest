@@ -2,7 +2,7 @@
 import { Input, NumItemsDiv } from "./CardItemStyles";
 import Button from "./Button";
 import { useDispatch } from "react-redux";
-import { decreaseQuantity, increasQuantity } from "../Features/Cart/CartSlice";
+import { decreaseQuantity, increasQuantity } from "../Features/cart/CartSlice";
 
 function ItemQuantity({ itemQuantity, id }) {
   // const [quantity, setQuantity] = useState(1);
