@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import Button from "./Button";
 import { useSelector } from "react-redux";
-import { getTotalCartPrice } from "../Features/Cart/CartSlice";
+import { getTotalCartPrice } from "../Features/cart/CartSlice";
 import { useNavigate } from "react-router-dom";
 
 const FormContainer = styled.form`

@@ -13,7 +13,7 @@ import {
   Spandiv,
 } from "./CardStyles";
 import { useDispatch } from "react-redux";
-import { addItem } from "../Features/Cart/CartSlice";
+import { addItem } from "../Features/cart/CartSlice";
 import SideBarContext from "./SideBarContext";
 
 function Card({ item }) {

@@ -10,7 +10,7 @@ import {
 } from "./CartPageStyles";
 import ItemQuantity from "./ItemQuantity";
 import { useDispatch } from "react-redux";
-import { deleteItem } from "../Features/Cart/CartSlice";
+import { deleteItem } from "../Features/cart/CartSlice";
 
 function Table({ cart }) {
   const dispatch = useDispatch();
