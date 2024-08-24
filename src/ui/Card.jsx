@@ -29,7 +29,7 @@ function Card({ item }) {
         <Boxtop>20% off</Boxtop>
         <Boximage>
           <ProductImage
-            src={`../../public/images/${item.image}`}
+            src={`../../images/${item.image}`}
             loading="lazy"
             decoding="async"
           />

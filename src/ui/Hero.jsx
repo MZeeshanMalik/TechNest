@@ -31,11 +31,11 @@ const HeroLeft = styled.div`
       rgba(233, 79, 247, 0.064),
       rgba(180, 47, 204, 0.8)
     ),
-    url("../../public/images/headphone.jpg") center/cover no-repeat;
+    url("../../images/headphone.jpg") center/cover no-repeat;
 
   &::before {
     content: "";
-    background-image: url("../../public/images/headphone.jpg");
+    background-image: url("../../images/headphone.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
